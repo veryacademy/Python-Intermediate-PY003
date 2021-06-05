@@ -1,18 +1,21 @@
-items = [1,2,3]
-x = list(map(lambda x: x, items))
+import functools
+
+items = [1002,48,981,305,20]
+x = functools.reduce(lambda a,b: a if (a > b) else b, items)
+
 print(x)
 
-items = [1, 2, 3, 4, 5]
-squared = []
-for i in items:
-    squared.append(i**2)
+# items = [1, 2, 3, 4, 5]
+# squared = []
+# for i in items:
+#     squared.append(i**2)
 
-print(squared)
+# print(squared)
 
-items = [1, 2, 3, 4, 5]
-squared = list(map(lambda x: x**2, items))
+# items = [1, 2, 3, 4, 5]
+# squared = list(map(lambda x: x**2, items))
 
-print(squared)
+# print(squared)
 
 # # doubles the number you send in
 # def myfunc(n):
