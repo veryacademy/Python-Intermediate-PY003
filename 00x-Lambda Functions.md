@@ -91,7 +91,7 @@ print(x)
 ```
 ```python 
 import functools
-# ex1.0.6 The sum of all numbers
+# ex1.0.6 reduce
 x = functools.reduce(lambda x, y: x+y, range(1,11))
 print(x)
 ```
