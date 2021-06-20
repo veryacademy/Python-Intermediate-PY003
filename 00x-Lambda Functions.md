@@ -11,10 +11,12 @@ A lambda function is a small anonymous function.
 ---
 ```python
 # ex1.0.1 Anonymous and function comparison
+# def is short for "define"
 def name(x):
     y = x + 1
     return y
 print (name(2))
+
 (lambda x: x + 1)(2)
 ```
 ```python
