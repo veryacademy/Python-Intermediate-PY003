@@ -6,6 +6,7 @@ A lambda function is a small anonymous function.
 * Anonymous and function comparison
 * Named functions
 * Multiple bound arguments
+* Map, Filter, Reduce
 
 ### Code Examples
 ---
@@ -104,47 +105,13 @@ x = functools.reduce(lambda a,b: a if (a > b) else b, items)
 print(x)
 ```
 
-
-
-
-
-
-
-
-
-```python
-# Using with Map
-items = [1,2,3]
-x = list(map(lambda x: x, items))
-print(x)
-```
-
-```python
-# Using with Map compared to for
-items = [1, 2, 3, 4, 5]
-squared = []
-for i in items:
-    squared.append(i**2)
-
-print(squared)
-
-items = [1, 2, 3, 4, 5]
-squared = list(map(lambda x: x**2, items))
-
-print(squared)
-```
-
-
-
 ## 001 Code Challenges
 ---
 Use the previous code examples to help you complete the code challenges
 
 ### **Challenge 1 - x**
 
-
 ### Solutions
 ---
-
 ```Python
 ```
