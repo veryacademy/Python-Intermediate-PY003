@@ -15,3 +15,11 @@ Here Python would skip the step of byte code generation and would convert byte c
 import dis # "dis" - Disassembler of Python byte code into mnemonics.
 dis.dis('print("Hello, World!")')
 ```
+
+## Check implementation
+>>>python -c 'import platform; print(platform.python_implementation())'
+
+Or, you can have these lines for both Linux and Windows terminals.
+>>> import platform
+>>> print(platform.python_imlplementation())
+CPython
