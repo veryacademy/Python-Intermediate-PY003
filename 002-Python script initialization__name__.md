@@ -72,38 +72,6 @@ else:
 print("algorithm:library executed")
 ```
 
-
-
-
-
-
-```python
-# ex1.0.4
-
-#main
-
-#login
-
-#algorithm
-
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```python
 # ex1.0.2 __Name__ Assignment
 print(__name__)
